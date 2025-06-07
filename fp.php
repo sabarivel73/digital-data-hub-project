@@ -17,8 +17,8 @@
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'gskgsk3773@gmail.com';
-        $mail->Password = 'fcgq sojw hmyl tzhv';
+        $mail->Username = 'yourmail@gmail.com';
+        $mail->Password = 'mail_password';
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port = 587;
         $mail->setFrom('digitaldatahub@gmail.com','DD Hub');
